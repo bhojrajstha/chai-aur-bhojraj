@@ -1,0 +1,19 @@
+button {
+    color:white;
+    outline:none;
+    border:none;
+    margin:2px;
+   height:30px;
+   width:60px;
+   border:2px solid white;
+   border-radius: 2rem;
+   opacity:0.5;
+}
+.bg-changer-box {
+    position:absolute;
+    bottom:0px;
+}
+button:hover {
+    transform: translateY(2px);
+    opacity:1;
+}
